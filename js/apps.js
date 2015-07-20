@@ -34,7 +34,7 @@ function addTextToPage()
 	
 	var leftDiv = document.createElement("div");
 	p = document.createElement('p');
-	p.innerHTML = '<p style="background:' + colors[bg] + ';color:' + colors[font] + '; font-size:20px;"> ' + ask + '</p>';
+	p.innerHTML = '<p style="background:' + colors[bg] + ';color:' + colors[font] + '; font-size:20px; font-family: Lobster, cursive;" class="col-sm-6 col-md-4 col-lg-2"> ' + ask + '</p>';
 	leftDiv.appendChild(p); // Add name to left div
 
 	document.getElementById("updateDiv").appendChild(leftDiv);
